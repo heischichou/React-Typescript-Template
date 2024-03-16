@@ -67,8 +67,8 @@ react-typescript-template/
   ├── src/                 # Application source code
   │   ├── styles/          # CSS stylesheets
   │   │   └── App.css      # Default stylesheet
-  │   ├── tests/           # Utility functions
-  │   │   └── App.test.tsx # App tests
+  │   ├── tests/           # App tests
+  │   │   └── App.test.tsx # App test
   │   ├── App.tsx          # Application entry point
   │   ├── index.css        # Application stylesheet
   │   └── index.tsx        # Main rendering file
