@@ -1,46 +1,82 @@
-# Getting Started with Create React App
+# React TypeScript Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React TypeScript + Tailwind template powered by CRACO.
 
-## Available Scripts
+## 🚀 Getting Started
+Follow these steps to get started:
+1. Clone the repository:
 
-In the project directory, you can run:
+    ```bash
+    git clone https://github.com/heischichou/React-Typescript-Template
+    ```
 
-### `npm start`
+2. Navigate to the project directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    ```bash
+    cd react-typecript-template
+    ```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+3. Install the dependencies:
 
-### `npm test`
+    ```bash
+    npm install
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Start the development server:
 
-### `npm run build`
+    ```bash
+    npm run start
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📜 Available Scripts
+### Compiles and hot-reloads for development
+Runs the app in the development mode at [http://localhost:3000](http://localhost:3000).\
+The page will reload if you make edits. You will also see any lint errors in the console.
+```
+npm run start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Run your tests
+Launches the test runner in the interactive watch mode.
+```
+npm run test
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Compiles and minifies for production
+Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm run build
+```
 
-### `npm run eject`
+### Remove the project single build dependency
+This command will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Note: This is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm run eject
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📂 Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The project structure follows a standard React application layout:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```python
+react-typescript-template/
+  ├── node_modules/        # Project dependencies
+  ├── public/              # Public assets
+  ├── src/                 # Application source code
+  │   ├── styles/          # CSS stylesheets
+  │   │   └── App.css      # Default stylesheet
+  │   ├── tests/           # Utility functions
+  │   │   └── App.test.tsx # App tests
+  │   ├── App.tsx          # Application entry point
+  │   ├── index.css        # Application stylesheet
+  │   └── index.tsx        # Main rendering file
+  ├── craco.config.js      # CRACO configuration
+  ├── tailwind.config.js   # Tailwind CSS configuration
+  └── tsconfig.json        # TypeScript configuration
+```
 
-## Learn More
+## 📄 License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License. See the [LICENSE](https://choosealicense.com/licenses/mit/) file for details.
